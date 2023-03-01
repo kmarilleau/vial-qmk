@@ -1,0 +1,62 @@
+{
+    "name": "KB16-01",
+    "vendorId": "0xD010",
+    "productId": "0x1601",
+    "lighting": "none",
+    "vial": {
+        "midi": "advanced"
+    },
+    "customKeycodes": [
+        { "name": "Page 1", "title": "Go To Page 1", "shortName": "_PAGE1" },
+        { "name": "Page 2", "title": "Go To Page 2", "shortName": "_PAGE2" },
+        { "name": "Page 3", "title": "Go To Page 3", "shortName": "_PAGE3" },
+        { "name": "Page 4", "title": "Go To Page 4", "shortName": "_PAGE4" },
+        { "name": "Page 5", "title": "Go To Page 5", "shortName": "_PAGE5" },
+        { "name": "Page 6", "title": "Go To Page 6", "shortName": "_PAGE6" },
+        { "name": "Page 7", "title": "Go To Page 7", "shortName": "_PAGE7" },
+        { "name": "Page 8", "title": "Go To Page 8", "shortName": "_PAGE8" },
+        { "name": "Page 9", "title": "Go To Page 9", "shortName": "_PAGE9" },
+        { "name": "Page 10", "title": "Go To Page 10", "shortName": "_PAGE10" },
+        { "name": "Page 11", "title": "Go To Page 11", "shortName": "_PAGE11" },
+        { "name": "Page 12", "title": "Go To Page 12", "shortName": "_PAGE12" }
+    ],
+    "matrix": {
+        "rows": 4,
+        "cols": 5
+    },
+    "layouts": {
+        "keymap": [
+            [
+                "0,0",
+                "0,1",
+                "0,2",
+                "0,3",
+                { "x": 0.25 },
+                "0,0\n\n\n\n\n\n\n\n\ne",
+                "0,1\n\n\n\n\n\n\n\n\ne",
+                { "x": 0.25 },
+                "1,0\n\n\n\n\n\n\n\n\ne",
+                "1,1\n\n\n\n\n\n\n\n\ne"
+            ],
+            [
+                "1,0",
+                "1,1",
+                "1,2",
+                "1,3",
+                { "x": 0.75 },
+                "0,4",
+                { "x": 1.25 },
+                "1,4"
+            ],
+            ["2,0", "2,1", "2,2", "2,3"],
+            [
+                { "y": -0.75, "x": 4.5 },
+                "2,0\n\n\n\n\n\n\n\n\ne",
+                { "w": 1.75, "h": 1.75 },
+                "2,4",
+                "2,1\n\n\n\n\n\n\n\n\ne"
+            ],
+            [{ "y": -0.25 }, "3,0", "3,1", "3,2", "3,3"]
+        ]
+    }
+}
